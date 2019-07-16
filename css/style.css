@@ -1,6 +1,20 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size:16px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size:1em;
+  line-height:1.5;
 }
 
 nav {
@@ -15,12 +29,14 @@ nav {
   width: 100px;
 }
 
-.large-pic {
+.logo {
   width: 100%;
+  background: url(images/bloc-logo.png);
 }
 
 .medium-pic {
   width: 70%;
+  background: url(images/instagram-pic.jpg);
 }
 
 .left, .right {
@@ -40,6 +56,11 @@ ul {
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
+}
+
+li:link {
+  color: blue;
 }
 
 article {
