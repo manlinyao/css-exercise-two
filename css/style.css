@@ -27,10 +27,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.logo {
-  width: 100%;
   background: url(images/bloc-logo.png);
 }
 
